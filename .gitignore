@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development configuration
+instance/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+venv/
+env/
+
+# Distribution/installation directories
+dist/
+build/
+*.egg-info/
+
+# Flask migration directory
+migrations/
+
+# SQLite database file
+*.db
+
+# Log files
+*.log
+
+# Environment-specific files
+.env
+
+# Configuration files
+config.py
+
+# Application-specific files
+instance/
+
+# Docker Compose files
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.prod.override.yml
+
+# Celery directory
+celerybeat-schedule
+
+# System files
+.DS_Store
+Thumbs.db

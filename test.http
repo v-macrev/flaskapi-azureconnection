@@ -1,0 +1,6 @@
+POST http://localhost:5000/query
+Content-Type: application/json
+
+{
+    "query": "SELECT * FROM your_table"
+}
